@@ -1,0 +1,58 @@
+.radio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text.content {
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    
+    margin-top: 62px;
+    margin-bottom: 62px;
+
+}
+
+#content-box {
+    display: block;
+    background-color: #C9D8B6;
+    margin: auto;
+    width: 500px;
+    height: 210px;
+    border: 1px solid #7F8D6C;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.test-container {
+    display: block;
+    text-align: center;
+}
+
+.questions-container {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+.first-page {
+    display: block;
+}
+
+.second-page {
+    display: none;
+}
+
+.last-page {
+    display: none;
+}
+
+.title-container {
+    display: block;
+}
+
+.result-container {
+    margin-top: 200px;
+    display: none;
+    text-align: center;
+}
+

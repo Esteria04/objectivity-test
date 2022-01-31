@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="객관안 테스트">
+    <meta property="og:description" content="나에게는 객관안이 장착되어 있을까? 객관안을 장착했는지 테스트 해보자">
+    <meta name="description" content="나에게는 객관안이 장착되어 있을까? 객관안을 장착했는지 테스트 해보자">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="canonical" href="https://.xyz/index.html"> -->
+    <title>객관안 테스트</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="title-container">
+        <h1>객관안 테스트</h1>
+        <h4>객관안 테스트 입니다. 테스트 시간은 약 5분 내외이며, 문제를 읽고 선택지 중 옳다고 생각되는 것을 골라 선택한 후 제출해 주시면 됩니다.</h4>
+        <h4>당신의 객관성을 확인해 보세요!!</h4>
+    </div>
+    <div class="test-container">
+        <div id="content-box">
+            <p class="text content">
+                한 남자의 집에 화재가 났다는 신고를 받은 소방관은 집으로 갔다.<br>남자는 불을 진압하러 집 안으로 들어갔다. 소화기를 분사했고<br>불이 진압된 후 집주인은 연기를 많이 마신 채 발견되어<br>구급대원에 의해 가까운 병원으로 이송되었다.
+            </p>
+        </div>
+        <div class="questions-container">
+            <div class="first-page">
+                <div class="questions-first">
+                    <h4 class="question">1. 소방관은 집으로 갔다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="1" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="1" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="1" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">2. 집주인은 남자였다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="2" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="2" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="2" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">3. 소방관이 불을 진압한 것은 사실이다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="3" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="3" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="3" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">4. 구급대원은 남자를 병원으로 이송했다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="4" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="4" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="4" value="1">아니다
+                        </div>
+                    </div>
+                    <button class="next-page-button" onclick="secondpageon();">다음 페이지</button>
+                </div>
+            </div>
+            <div class="second-page">
+                <div class="questions-second">
+                    <h4 class="question">5. 집주인의 집에 화재가 발생했다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="5" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="5" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="5" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">6. 집주인은 병원으로 이송되었다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="6" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="6" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="6" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">7. 한 남자가 집에 들어가서 소화기를 분사했다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="7" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="7" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="7" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">8. 소방관은 연기를 많이 마신 집주인을 발견했다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="8" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="8" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="8" value="1">아니다
+                        </div>
+                    </div>
+                    <button class="previous-page-button" onclick="firstpageon();">이전 페이지</button>
+                    <button class="next-page-button" onclick="lastpageon();">다음 페이지</button>
+                </div>
+            </div>
+            <div class="last-page">
+                <div class="questions-last">
+                    <h4 class="question">9. 위 글에서 누군가 연기를 많이 마셔 쓰러진 것은 사실이다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="9" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="9" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="9" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">10. 불은 진압되었고, 집주인은 병원으로 이송되었다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="10" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="10" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="10" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">11. 위 글에서 등장한 인물은 집주인, 소방관, 구급대원 총 3명이다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="11" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="11" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="11" value="1">아니다
+                        </div>
+                    </div>
+                    <h4 class="question">12. 우왁굳은 고집이 세다.</h4>
+                    <div class="radio-container">
+                        <div class="radio">
+                            <input type="radio" name="12" value="0">맞다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="12" value="2">맞을 수도 있고 틀릴 수도 있다
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="12" value="1">아니다
+                        </div>
+                    </div>
+                    <button class="previous-page-button" onclick="secondpageon();">이전 페이지</button>
+                    <button type="submit" class="submit-button" onclick="calcAnswers();">제출</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result-container">
+        <h5>당신의 객관안 수치는??</h5>
+        <div class="result-box">
+            <h1 class="percentage">Loading...</h1>
+            <p class="result">Loading...</p>
+            <h4 class="result-message">Loading...</h4>
+            <p>뱅송에서 많은 팬치들은 선택적 지각을 합니다.<br>선택적 지각은 많은 객관적 정보가 나열되어 있는 상황에서도<br>자신이 판단한 주관적 정보만 선택적으로 수용하는 것을 의미합니다.<br>따라서 객관안 수치가 높을수록 왁초리를 맞지 않을 확률이 높습니다.</p>
+            <button class="restart" onclick="window.location.reload();">다시 검사하기</button>
+            <button class="wakdooface" onclick="window.open('https://wakdooface.xyz','_blank');">왁두상 테스트 하러 가기</button>
+        </div>
+    </div>
+    <footer>made by 에스테리아<br>문의: dev.esteria04@gmail.com</footer>
+</body>
+</html>
