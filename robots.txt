@@ -1,3 +1,2 @@
 User-agent: *
 Allow:/
-Sitemap: https://wak-eye-test.xyz/sitemap.xml
