@@ -96,31 +96,32 @@ function result(p) {
     document.getElementsByClassName("percentage")[0].innerHTML = `${p}%`;
     let result = document.getElementsByClassName("result")[0];
     let resultMessage = document.getElementsByClassName("result-message")[0];
+    p = parseInt(p);
     if (p==0) {
         result.innerHTML = "(주관안)";
         resultMessage.innerHTML= "당신은 주관안 보유자입니다.<br>객관적인 사고를 위해 노력하세요."
     }
-    else if (0<p<20) {
+    if (0<p<20) {
         result.innerHTML = "(거의 주관안이라고 봐야됨)"
         resultMessage.innerHTML= "당신은 주관안을 끼고 있는 경우가 빈번합니다.<br>완전한 주관안은 아니지만, 객관적인 사고를 위해 노력하세요."
     }
-    else if (20<=p<40) {
+    if (20<=p<40) {
         result.innerHTML = "(주관안과 맨눈 사이)";
         resultMessage.innerHTML = "당신은 거의 맨눈을 보유하고 있습니다.<br>조금만 더 객관적 사고를 위해 노력하면 맨눈에 도달할 수 있습니다."
     }
-    else if (40<=p<60) {
+    if (40<=p<60) {
         result.innerHTML = "(맨눈)";
         resultMessage.innerHTML = "당신은 맨눈을 보유하고 있습니다.<br>상황에 따라 주관적 해석과 객관적 해석을 병행합니다."
     }
-    else if (60<=p<80) {
+    if (60<=p<80) {
         result.innerHTML = "(객관안을 향해 가는중)";
         resultMessage.innerHTML = "맨눈을 벗어나서 객관안을 향해 가는 중입니다.<br>주관적 해석보다는 객관적 해석을 하는 경우가 조금 더 많습니다."
     }
-    else if (80<=p<100) {
+    if (80<=p<100) {
         result.innerHTML="(거의 객관안)";
         resultMessage.innerHTML = "객관안을 장착할 날이 머지 않았습니다."
     }
-    else if (p==100) {
+    if (p==100) {
         result.innerHTML="(객관안 보유자)"
         resultMessage.innerHTML="당신은 객관안 보유자입니다!!<br>주관적 해석을 하는 경향은 거의 없습니다."
     }
