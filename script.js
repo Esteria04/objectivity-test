@@ -78,6 +78,7 @@ function calcAnswers() {
         }
         window.alert("마지막 문항은 재미로 넣은 문항으로, 점수에 반영되지 않습니다!!")
         result(percentage);
+        console.log(percentage);
     }
     catch {
         window.alert("문제를 모두 풀었는지 확인해 주세요!!");
