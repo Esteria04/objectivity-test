@@ -50,7 +50,7 @@ function calcAnswers() {
         if (a2 == 2) {
             percentage += 6;
         }
-        if (a3 == 0) {
+        if (a3 == 2) {
             percentage += 4;
         }
         if (a4 == 0) {
