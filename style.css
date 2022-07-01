@@ -13,6 +13,10 @@
 
 }
 
+input[type="radio"]{
+    cursor: pointer;
+}
+
 #content-box {
     display: block;
     background-color: #C9D8B6;
